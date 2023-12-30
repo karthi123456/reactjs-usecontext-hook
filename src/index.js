@@ -4,11 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import UseContextExmaple from './components/UseContextExmaple';
+import UseRefHookExample from './components/UseRefHookExample';
+import UseReducerExample from './components/UseReducerExample';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <UseContextExmaple/>
+    {/* <UseContextExmaple/> */}
+    {/* <UseRefHookExample /> */}
+    <UseReducerExample />
   </React.StrictMode>
 );
 
