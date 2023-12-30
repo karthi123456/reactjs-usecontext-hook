@@ -12,7 +12,8 @@ root.render(
   <React.StrictMode>
     {/* <UseContextExmaple/> */}
     {/* <UseRefHookExample /> */}
-    <UseReducerExample />
+    {/* <UseReducerExample /> */}
+    <App />
   </React.StrictMode>
 );
 
